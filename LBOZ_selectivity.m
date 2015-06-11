@@ -53,3 +53,4 @@ legend('Prediction','Window','Residuals')
 % Test1
 % Almost done
 SE=std(win)./(ksi*norm(S(:,1))); % ONE AT A TIME
+% MASTER BRANCH, YO.
