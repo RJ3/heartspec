@@ -52,4 +52,5 @@ legend('Prediction','Window','Residuals')
 % SE=std(win)./(ksi.*sqrt(sum(S.^2))); % 2-norm is the Euclidean norm.
 % Test1
 % Almost done
+% This is part of the waxis branch
 SE=std(win)./(ksi*norm(S(:,1))); % ONE AT A TIME
