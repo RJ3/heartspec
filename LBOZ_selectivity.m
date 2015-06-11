@@ -49,7 +49,7 @@ legend('Prediction','Window','Residuals')
 
 %% Standard error of the Prediction
 
-SE=std(win)./(ksi.*sqrt(sum(S.^2))); % 2-norm is the Euclidean norm.
+% SE=std(win)./(ksi.*sqrt(sum(S.^2))); % 2-norm is the Euclidean norm.
 % Test1
 % Almost done
-% SE=std(win)./(ksi*norm(S(:,1))); % ONE AT A TIME
+SE=std(win)./(ksi*norm(S(:,1))); % ONE AT A TIME
